@@ -1,0 +1,264 @@
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+  .smooth-scroll-wrapper {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+body{
+    margin: 0px auto;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIm07dhGsOoU_Qb8lPWRlFEzdiWl9tcli9ag&usqp=CAU');
+    color: #e8e8e8;
+    text-align: center;
+    font-size:3.5rem;
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.home .inner img{
+    border-radius: 50%;
+    width:250px;
+    height: auto;
+    float: right;
+    margin-right: 100px;
+}
+.home .inner h1{
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-family: 'Cookie', cursive;
+    font-weight: 100;
+    font-size: larger;
+}
+.about{
+    background-image: url('https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size:cover ;
+    display: table;
+    height: 100vh;
+    width:100%;
+    background-repeat: no-repeat;
+}
+.about .inner{
+
+    display: table-cell;
+    vertical-align: middle;
+    width: 45%;
+    float: left;
+    padding-top: 75px;
+    padding-left: 50px;
+}
+
+.about .inner h2{
+    font-size: 3rem;
+    color: #fcf8e8;
+}
+.about .inner p{
+    font-size: 2rem;
+    line-height: 40px;
+    color: #fcf8e8;
+}
+
+.edu{
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwoHBwcHBwgIBwcHBwoHBwcHCA8ICQcKIBEWIhURExMYHCggGCYlGxMVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NFSsZFRkrKysrKy0rKzcrKystLS0rKysrKy0tKysrKystKysrKysrKysrKysrKysrKy0rKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAAAAQIDBQQH/8QAFxABAQEBAAAAAAAAAAAAAAAAABEBEv/EABgBAQEBAQEAAAAAAAAAAAAAAAABAwIE/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AP2wB4nYCAogCiAKICqgACAKgIAAAgCiAAAoAAAAADQg6RUAAAAAAEBRBBUEBRAFEBVEEAAAAAQBRAFEAaGR0jQyA0Miq0MiDSIUFEAUQBRAFGRBpEpQUSgKIAogCiAKIAUrFK7G6VilBulYpQbqVmlBqlZpUGqVmlBqlZpQapWaUGqIIqiFBRmlBoZpQaGaUGhmlBpEqgxSudK0iulK50pB0pWKVBulYpSDdKxSkG6VilIN0rFWkGqVmlSDdKxSkGqtYpSI3SsUpBulYpSK3SsUpEbpWaUg1RmhBxpXOlaR3HSlc+jog6Urn0Ug6UrnSkSOlWuXS0g6Urn0dJB0pWKUhHSlc6tIRulYpSDdWudWpBulYpSDdKxSg3SsUoN0rFKDdGKoPm6K5U6ax3HWlcujpIR1pXOnREjpSufRSEdaVz6KQjpVrlVpCOlK51aQdKVzq1IRurXOrSI3VrnVpBulYpSDdWsUpBulYpSDdKxSkG6MUSD4+jpzp01jSOnR059FIR06XpypSEdejpyq9EI6dL05VaRI6Va5VaQjrSudWpB0pXOrSI6UrFKQdKVilIOlKxSkR0pWKVIN0rFKQbpWKUg3Vc6EHwU6c6VrGsdOlrlVpCOlK50pCOtK50pCOlWudKRI60rnVqQdKtc6UiOtWuVWkHSrXOrSDpSsUqRHSlYq0g3SsUpBulZpSI3SsUpBuozQg86lc6VpGzpSsUpCN0rFKQdKVilIjpVrnVpB0q1zq0g3VrFWpEbrVc6tIjdWsVaQbq1ilIjpSsVaQbpWKtSDVKzSkGqVmlIN0YoRHmUrNK0bN0rFWg1Ss0oN1axVoNVawtEbq1iqDdWsZq5qI3mtYwuaDdXNYzVEbpWatEaq1kQaq1kBqjKgqsgjQyA8urWR22aKyoLVZKDSs1aDVWsKI0uazVBvNVhrERrNVlcEaxrNZxQaVlRFqsqiNUZUGhlQUQBRAHliDtsqsgNCAjQgDS4yuA0uIIjeKziiNYrONYDWLjKiNKyqI0IoKIoCoCKIoAAPLEHTZRFAAUVWVQVUURrFZxrBFxrGMawGlxlrERrFZxcEaxWcUFVMURRFQUQBQBAAHlgO2woIAChi4ALigiKuKAY1gCKuAiNYoCKuKAYoCAAKAgKAgAD/2Q==');
+    display: table;
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.edu h2,
+.skills h2,
+.certi h2, 
+.contact h2{
+    font-size: 4rem;
+}
+.hobby h2{
+    font-size: 3.5rem ;
+}
+.edu .inner{
+   padding-top: 1rem;
+}
+.edu .inner div
+{
+  width: 30%;
+  margin-left: 15px;
+  margin-right: 10px;
+  float: left;
+  text-align: center;
+}
+.edu .inner div h3, 
+.edu .inner div p,
+.hobby .inner div h4{
+    font-size: 2rem;
+} 
+.skills {
+    background-image: url('https://previews.123rf.com/images/annaleni/annaleni1612/annaleni161200084/67657568-blue-coding-line-tile-pattern-illustration-of-outline-seamless-background-programming-skills-.jpg');
+    display: table;
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.skills .inner div ul{
+    list-style-type: none;
+}
+.skills .inner div ul li{
+    font-size: 3rem;
+    padding-top: 20px;
+}
+.skills .inner div {
+    width: 45%;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+}
+.skills .inner{
+    padding-right: 110px;
+}
+.hobby .inner div{
+    width: 30%;
+    margin-left: 15px;
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+    color:#eff7e1 ;
+}
+.hobby{
+    background-image: url('https://eskipaper.com/images/solid-color-background-1.jpg');
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hobby .inner{
+    padding-right:5.5rem ;
+    
+}
+.certi{
+    background-image: url('https://images.pexels.com/photos/268415/pexels-photo-268415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.certi .inner div{
+    width: 23%;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+    padding-top:100px;
+    padding-right:100px ;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.certi .inner{
+    padding-right: 100px;
+}
+.edu h2, 
+.skills h2,
+.hobby h2,
+.certi h2,
+.contact h2{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.contact .inner {
+    text-align: center;
+}
+.contact{
+    background-image: url('https://images.pexels.com/photos/957061/milky-way-starry-sky-night-sky-star-957061.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    display: table;
+    height: 100vh;
+    color:#f8f1f1;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact .inner p{
+    font-size: 3rem;
+    
+    padding-right: 250px;
+}
+/* Responsive Desinging*/
+@media (min-width: 320px) and (max-width: 767px) {
+   /* nav{
+        height: 90px;
+    }*/
+    html {
+        font-size: 35% !important;
+    }   
+    nav ul li{
+        font-size: 2rem !important;
+        padding-bottom: 10px;
+        padding-left: 0px  ;
+    } 
+    .about p{
+       font-size: 20px !important;
+       color:white  !important;
+    }
+    .about h2{
+        font-size: 30px !important;
+    }
+    .edu .inner div {
+        width: 100% !important;
+    }
+    .edu h2{
+        font-size: 30px !important;
+    }
+    .hobby .inner div {
+        width: 100% !important;
+    }
+    .certi .inner div {
+        width: 100% !important;
+    }
+    .certi .inner div img{
+        width: 100% !important;
+    }
+    .contact .inner p{
+        font-size: 15px !important;
+    }
+}
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .hobby .inner div {
+        width: 100% !important;
+    }
+    .certi .inner div {
+        width: 100% !important;
+    }
+    .contact .inner p{
+        font-size: 30px !important;
+    }
+    .contact h2{
+        font-size: 45px !important;
+    }
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .hobby .inner div img{
+        width: 250px !important;
+    }
+}
+  }
